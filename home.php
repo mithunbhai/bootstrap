@@ -11,9 +11,9 @@
       margin-top: 10px;
 		}
     .c-img{
-      height: 240px;
-      width: 240px;
-      padding: 10px;
+      height: 200px;
+      width: 100%;
+      padding: 30px;
     }
     .second{
       background-color: gray;
@@ -37,6 +37,12 @@
     margin-top: 10px;
 
 		}
+    .md{
+      background-color: green;
+      height: 100px;
+      width: 100%;
+
+    }
     
     .thard{
       background-color: green;
@@ -47,25 +53,59 @@
 </head>
 <body>
   <div class="fluid-container">
-    
-    <div class="row">     
-      <!-- <div class="col-md-2 col-md-offset-2 col-md-pull-1"> -->
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <img class="img-responsive c-img" src="img/flower1.jpg">
+        <div class="row">     
+                <div class="col-md-8">
+                       <div class="row">
+                            <div class="col-md-8">
+                               <img class="img-responsive c-img" src="img/flower1.jpg">
+                            </div>
+                            <div class="col-md-4">
+                               <img class="img-responsive c-img" src="img/flower1.jpg">
+                            </div>
+                       </div>
+                        <div class="col-md-12">
+                           <img class="img-responsive c-img" src="img/flower1.jpg">
+                        </div>
+                </div>
+                <div class="col-md-4">
+                   <img class="img-responsive c-img" src="img/flower1.jpg">
+                </div>
+         </div>
+             <div class="row">
+                  <div class="col-md-2">
+                        <img class="img-responsive c-img" src="img/flower1.jpg">
+                  </div>
+                  <div class="col-md-6">
+                        <img class="img-responsive c-img" src="img/flower1.jpg">
+                  </div>
+                  <div class="col-md-4  ">
+                        <img class="img-responsive c-img" src="img/flower1.jpg">
+                  </div>
+            </div>
+        <div class="row">
+                  <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img class="img-responsive c-img" src="img/flower1.jpg">
+                            </div>
+                            <div class="col-md-6">
+                                <img class="img-responsive c-img" src="img/flower1.jpg">
+                            </div>
+                        </div>
+                          <div class="col-md-3">
+                              <img class="img-responsive c-img" src="img/flower1.jpg">
+                          </div>
+                          <div class="col-md-3">
+                               <img class="img-responsive c-img" src="img/flower1.jpg">
+                          </div>
+                          <div class="col-md-6">
+                              <img class="img-responsive c-img" src="img/flower1.jpg">
+                          </div>
+                    </div>
+                <div class="col-md-4">
+                  <img class="img-responsive c-img" src="img/flower1.jpg">
+                </div>
+         </div>   
       </div>
-
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <img class="img-responsive c-img" src="img/flower1.jpg">
-      </div>
-      
-      <div class="col-md-12 col-sm-12 col-xs-12">
-        <img class="img-responsive c-img" src="img/flower1.jpg">
-      </div>
-
-    </div>
-
-  </div>
 </body>
 </html>
-
-  
